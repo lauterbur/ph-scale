@@ -1,3 +1,5 @@
+Modified by M. Elise Lauterbur to use solutes that are relevant to understanding how pollutants can affect water quality.
+
 pH Scale
 =============
 "pH Scale" is an educational simulation in HTML5, by <a href="https://phet.colorado.edu/" target="_blank">PhET Interactive Simulations</a>
