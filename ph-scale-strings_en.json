@@ -11,41 +11,38 @@
   "screen.mySolution": {
     "value": "My Solution"
   },
-  "choice.milk": {
-    "value": "Milk"
-  },
-  "choice.chickenSoup": {
-    "value": "Chicken Soup"
+  "choice.soap":{
+    "value": "Soap"
   },
   "choice.batteryAcid": {
     "value": "Battery Acid"
   },
-  "choice.vomit": {
-    "value": "Vomit"
+  "choice.nitricAcid": {
+    "value": "Nitric Acid (fertilizer)"
   },
-  "choice.soda": {
-    "value": "Soda Pop"
+  "choice.ammonium": {
+    "value": "Ammonium (fertilizer)"
   },
-  "choice.orangeJuice": {
-    "value": "Orange Juice"
+  "choice.phosphoricAcid": {
+    "value": "Phosphoric Acid (fertilizer)"
   },
-  "choice.coffee": {
-    "value": "Coffee"
+  "choice.sulfuricAcid": {
+    "value": "Sulfuric Acid (waste water treatment and fertilizer)"
   },
-  "choice.spit": {
-    "value": "Spit"
+  "choice.potassiumSulfate": {
+    "value": "Potassium Sulfate (fertilizer)"
   },
-  "choice.blood": {
-    "value": "Blood"
+  "choice.lime": {
+    "value": "Lime (manufacturing and fertilizer)"
   },
-  "choice.handSoap": {
-    "value": "Hand Soap"
+  "choice.saltWater": {
+    "value": "Salt Water"
   },
   "choice.water": {
     "value": "Water"
   },
-  "choice.drainCleaner": {
-    "value": "Drain Cleaner"
+  "choice.water": {
+    "value": "Water"
   },
   "units.liters": {
     "value": "L"

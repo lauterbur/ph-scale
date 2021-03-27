@@ -41,17 +41,15 @@ class MacroModel {
     // @public solute choices, in order that they'll appear in the combo box
     // The order is alphabetical (English names), see https://github.com/phetsims/ph-scale/issues/101
     this.solutes = [
+      Solute.AMMONIUM,
       Solute.BATTERY_ACID,
-      Solute.BLOOD,
-      Solute.CHICKEN_SOUP,
-      Solute.COFFEE,
-      Solute.DRAIN_CLEANER,
-      Solute.HAND_SOAP,
-      Solute.MILK,
-      Solute.ORANGE_JUICE,
-      Solute.SODA,
-      Solute.SPIT,
-      Solute.VOMIT,
+      Solute.LIME,
+      Solute.NITRIC_ACID,
+      Solute.PHOSPHORIC_ACID,
+      Solute.POTASSIUM_SULFATE,
+      Solute.SALT_WATER,
+      Solute.SOAP,
+      Solute.SULFURIC_ACID,
       Solute.WATER
     ];
 

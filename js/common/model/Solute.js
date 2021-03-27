@@ -147,57 +147,44 @@ Solute.SoluteIO = new IOType( 'SoluteIO', {
 // parent tandem for all static instances of Solute, which are used across all screens
 const SOLUTES_TANDEM = Tandem.GLOBAL_MODEL.createTandem( 'solutes' );
 
-Solute.BATTERY_ACID = new Solute( phScaleStrings.choice.batteryAcid, 1, new Color( 255, 255, 0 ), {
+Solute.NITRIC_ACID = new Solute( phScaleStrings.choice.nitricAcid, 1, new Color( 255, 255, 0 ), {
+  colorStopColor: new Color( 255, 224, 204 ),
+  tandem: SOLUTES_TANDEM.createTandem( 'nitricAcid' )
+} );
+
+Solute.SOAP = new Solute( phScaleStrings.choice.soap, 10, new Color( 224, 141, 242 ), {
+  colorStopColor: new Color( 232, 204, 255 ),
+  tandem: SOLUTES_TANDEM.createTandem( 'soap' )
+} );
+
+Solute.AMMONIUM = new Solute( phScaleStrings.choice.ammonium, 11, new Color( 250, 250, 250 ), {
+  tandem: SOLUTES_TANDEM.createTandem( 'ammonium' )
+} );
+
+Solute.PHOSPHORIC_ACID = new Solute( phScaleStrings.choice.phosphoricAcid, 2, new Color( 250, 250, 250 ), {
+  tandem: SOLUTES_TANDEM.createTandem( 'phosphoricAcid' )
+} );
+
+Solute.SULFURIC_ACID = new Solute( phScaleStrings.choice.sulfuricAcid, 3, new Color( 250, 250, 250 ), {
+  tandem: SOLUTES_TANDEM.createTandem( 'sulfuricAcid' )
+} );
+
+Solute.LIME = new Solute( phScaleStrings.choice.lime, 12.4, new Color( 250, 250, 250 ), {
+  tandem: SOLUTES_TANDEM.createTandem( 'lime' )
+} );
+
+Solute.SALT_WATER = new Solute( phScaleStrings.choice.saltWater, 7, new Color( 250, 250, 250 ), {
+  tandem: SOLUTES_TANDEM.createTandem( 'saltWater' )
+} );
+
+Solute.POTASSIUM_SULFATE = new Solute( phScaleStrings.choice.potassiumSulfate, 6, new Color( 59, 240, 234 ), {
+  colorStopColor: new Color( 183, 229, 227 ),
+  tandem: SOLUTES_TANDEM.createTandem( 'potassiumSulfate' )
+} );
+
+Solute.BATTERY_ACID = new Solute( phScaleStrings.choice.batteryAcid, 1, new Color( 255, 171, 120 ), {
   colorStopColor: new Color( 255, 224, 204 ),
   tandem: SOLUTES_TANDEM.createTandem( 'batteryAcid' )
-} );
-
-Solute.BLOOD = new Solute( phScaleStrings.choice.blood, 7.4, new Color( 211, 79, 68 ), {
-  colorStopColor: new Color( 255, 207, 204 ),
-  tandem: SOLUTES_TANDEM.createTandem( 'blood' )
-} );
-
-Solute.CHICKEN_SOUP = new Solute( phScaleStrings.choice.chickenSoup, 5.8, new Color( 255, 240, 104 ), {
-  colorStopColor: new Color( 255, 250, 204 ),
-  tandem: SOLUTES_TANDEM.createTandem( 'chickenSoup' )
-} );
-
-Solute.COFFEE = new Solute( phScaleStrings.choice.coffee, 5, new Color( 164, 99, 7 ), {
-  colorStopColor: new Color( 255, 240, 204 ),
-  tandem: SOLUTES_TANDEM.createTandem( 'coffee' )
-} );
-
-Solute.DRAIN_CLEANER = new Solute( phScaleStrings.choice.drainCleaner, 13, new Color( 255, 255, 0 ), {
-  colorStopColor: new Color( 255, 255, 204 ),
-  tandem: SOLUTES_TANDEM.createTandem( 'drainCleaner' )
-} );
-
-Solute.HAND_SOAP = new Solute( phScaleStrings.choice.handSoap, 10, new Color( 224, 141, 242 ), {
-  colorStopColor: new Color( 232, 204, 255 ),
-  tandem: SOLUTES_TANDEM.createTandem( 'handSoap' )
-} );
-
-Solute.MILK = new Solute( phScaleStrings.choice.milk, 6.5, new Color( 250, 250, 250 ), {
-  tandem: SOLUTES_TANDEM.createTandem( 'milk' )
-} );
-
-Solute.ORANGE_JUICE = new Solute( phScaleStrings.choice.orangeJuice, 3.5, new Color( 255, 180, 0 ), {
-  colorStopColor: new Color( 255, 242, 204 ),
-  tandem: SOLUTES_TANDEM.createTandem( 'orangeJuice' )
-} );
-
-Solute.SODA = new Solute( phScaleStrings.choice.soda, 2.5, new Color( 204, 255, 102 ), {
-  colorStopColor: new Color( 238, 255, 204 ),
-  tandem: SOLUTES_TANDEM.createTandem( 'soda' )
-} );
-
-Solute.SPIT = new Solute( phScaleStrings.choice.spit, 7.4, new Color( 202, 240, 239 ), {
-  tandem: SOLUTES_TANDEM.createTandem( 'spit' )
-} );
-
-Solute.VOMIT = new Solute( phScaleStrings.choice.vomit, 2, new Color( 255, 171, 120 ), {
-  colorStopColor: new Color( 255, 224, 204 ),
-  tandem: SOLUTES_TANDEM.createTandem( 'vomit' )
 } );
 
 Solute.WATER = new Solute( Water.name, Water.pH, Water.color, {
